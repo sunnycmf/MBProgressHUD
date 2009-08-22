@@ -143,7 +143,23 @@ typedef enum {
  * @param animated If set to YES the HUD will appear and disappear using a fade animation. 
  *        If set to NO the HUD will not use animations while appearing and disappearing. 
  */
-- (void)showWhileExecuting:(SEL)method onTarget:(id)target withObject:(id)object animated:(bool)animated;
+- (void)showWhileExecuting:(SEL)method onTarget:(id)target withObject:(id)object animated:(BOOL)animated;
+
+/**
+ * Shows the HUD.
+ *
+ * @param animated If set to YES the HUD will appear and disappear using a fade animation. 
+ *        If set to NO the HUD will not use animations while appearing and disappearing. 
+ */
+- (void)showUsingAnimation:(BOOL)animated;
+
+/**
+ * Hides the HUD.
+ *
+ * @param animated If set to YES the HUD will appear and disappear using a fade animation. 
+ *        If set to NO the HUD will not use animations while appearing and disappearing. 
+ */
+- (void)hideUsingAnimation:(BOOL)animated;
 
 @end
 
