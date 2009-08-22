@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>MBProgressHUD</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>cl</Type>
+      <Scope></Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Abstract>Displays a simple HUD window containing a UIActivityIndicatorView and two optional...</Abstract>
+    <DeclaredIn>MBProgressHUD.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWindow:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>8f3c01167d59153c85ae7efdca7717fc</Anchor>
+    <Abstract>A convenience constructor tat initializes the HUD with the window&#39;s bounds.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>showWhileExecuting:onTarget:withObject:animated:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>57143873dfa8d273a17d378886b31cdb</Anchor>
+    <Abstract>Shows the HUD while a background task is executing in a new thread, then hides the...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>ce77eaaf507e86fe56436f7ee7b6fdc9</Anchor>
+    <Abstract>MBProgressHUD operation mode.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>f50bbbc26208854ae0af6f76bbab35d6</Anchor>
+    <Abstract>The HUD delegate object.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>labelText</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>e43d72850b8dd657db1b383be0566093</Anchor>
+    <Abstract>An optional short message to be displayed below the activity indicator.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detailsLabelText</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>b5ad528a731e513b39e3183129af1f37</Anchor>
+    <Abstract>An optional details message displayed below the labelText message.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>opacity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>24ab5e37917e3489d6add081324a49ff</Anchor>
+    <Abstract>The opacity of the hud window.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>labelFont</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>85b03f18b8313f4c3efc2002ad79ff27</Anchor>
+    <Abstract>Font to be used for the main label.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>detailsLabelFont</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>f3a772e02286bf867c2b4c2213be0180</Anchor>
+    <Abstract>Font to be used for the details label.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>progress</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>property</Type>
+      <Scope>MBProgressHUD</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_progress_h_u_d.html</Path>
+    <Anchor>4c8328617d11efd1f5452032246ca97f</Anchor>
+    <Abstract>The progress of the progress indicator, from 0.0 to 1.0.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MBProgressHUDDelegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intf</Type>
+      <Scope></Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_b_progress_h_u_d_delegate-p.html</Path>
+    <Abstract>Defines callback methods for MBProgressHUD delegates.</Abstract>
+    <DeclaredIn>MBProgressHUD.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hudWasHidden</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>func</Type>
+      <Scope>MBProgressHUDDelegate-p</Scope>
+    </TokenIdentifier>
+    <Path>protocol_m_b_progress_h_u_d_delegate-p.html</Path>
+    <Anchor>249e40d64d6df30f2bf2f7fce209b9c7</Anchor>
+    <Abstract>A callback function that is called after the hud was fully hidden from the screen...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MBRoundProgressView</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>cl</Type>
+      <Scope></Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_round_progress_view.html</Path>
+    <Abstract>A progress view for showing definite progress by filling up a circle (similar to...</Abstract>
+    <DeclaredIn>MBProgressHUD.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithDefaultSize</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+      <Scope>MBRoundProgressView</Scope>
+    </TokenIdentifier>
+    <Path>interface_m_b_round_progress_view.html</Path>
+    <Anchor>a4794160e36b8a16ce1dd444072433e9</Anchor>
+    <Abstract>Create a 37 by 37 pixel indicator.</Abstract>
+  </Token>
+</Tokens>

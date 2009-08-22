@@ -1,0 +1,199 @@
+\hypertarget{interface_m_b_progress_h_u_d}{
+\section{MBProgressHUD Class Reference}
+\label{interface_m_b_progress_h_u_d}\index{MBProgressHUD@{MBProgressHUD}}
+}
+Displays a simple HUD window containing a UIActivityIndicatorView and two optional labels for short messages.  
+
+
+{\tt \#import $<$MBProgressHUD.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+(id) - \hyperlink{interface_m_b_progress_h_u_d_8f3c01167d59153c85ae7efdca7717fc}{initWithWindow:}
+\begin{CompactList}\small\item\em A convenience constructor tat initializes the HUD with the window's bounds. \item\end{CompactList}\item 
+(void) - \hyperlink{interface_m_b_progress_h_u_d_57143873dfa8d273a17d378886b31cdb}{showWhileExecuting:onTarget:withObject:animated:}
+\begin{CompactList}\small\item\em Shows the HUD while a background task is executing in a new thread, then hides the HUD. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_319e2f57095b4f2039f3fffedafe44e3}{
+SEL \textbf{methodForExecution}}
+\label{interface_m_b_progress_h_u_d_319e2f57095b4f2039f3fffedafe44e3}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_05931e7cecbfc3ddee89ef1301b48039}{
+id \textbf{targetForExecution}}
+\label{interface_m_b_progress_h_u_d_05931e7cecbfc3ddee89ef1301b48039}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_cbf1cf583c74ade19efc5b5f318e450a}{
+id \textbf{objectForExecution}}
+\label{interface_m_b_progress_h_u_d_cbf1cf583c74ade19efc5b5f318e450a}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_48a32cc87681b821483341ae6b9b0969}{
+bool \textbf{useAnimation}}
+\label{interface_m_b_progress_h_u_d_48a32cc87681b821483341ae6b9b0969}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_e436114b5bcacb949bb0b3cfe3ec55cb}{
+float \textbf{width}}
+\label{interface_m_b_progress_h_u_d_e436114b5bcacb949bb0b3cfe3ec55cb}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_29cae5aee93445645347e518622080fe}{
+float \textbf{height}}
+\label{interface_m_b_progress_h_u_d_29cae5aee93445645347e518622080fe}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_424686eff429164f075a7b04ecd047f2}{
+UIView $\ast$ \textbf{indicator}}
+\label{interface_m_b_progress_h_u_d_424686eff429164f075a7b04ecd047f2}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_5fd324453f4b8620f24d618d31a91b31}{
+UILabel $\ast$ \textbf{label}}
+\label{interface_m_b_progress_h_u_d_5fd324453f4b8620f24d618d31a91b31}
+
+\item 
+\hypertarget{interface_m_b_progress_h_u_d_460dd4be85a0a27245df574b0d19b027}{
+UILabel $\ast$ \textbf{detailsLabel}}
+\label{interface_m_b_progress_h_u_d_460dd4be85a0a27245df574b0d19b027}
+
+\end{CompactItemize}
+\subsection*{Properties}
+\begin{CompactItemize}
+\item 
+MBProgressHUDMode \hyperlink{interface_m_b_progress_h_u_d_ce77eaaf507e86fe56436f7ee7b6fdc9}{mode}
+\begin{CompactList}\small\item\em \hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} operation mode. \item\end{CompactList}\item 
+id \hyperlink{interface_m_b_progress_h_u_d_f50bbbc26208854ae0af6f76bbab35d6}{delegate}
+\begin{CompactList}\small\item\em The HUD delegate object. \item\end{CompactList}\item 
+NSString $\ast$ \hyperlink{interface_m_b_progress_h_u_d_e43d72850b8dd657db1b383be0566093}{labelText}
+\begin{CompactList}\small\item\em An optional short message to be displayed below the activity indicator. \item\end{CompactList}\item 
+NSString $\ast$ \hyperlink{interface_m_b_progress_h_u_d_b5ad528a731e513b39e3183129af1f37}{detailsLabelText}
+\begin{CompactList}\small\item\em An optional details message displayed below the labelText message. \item\end{CompactList}\item 
+float \hyperlink{interface_m_b_progress_h_u_d_24ab5e37917e3489d6add081324a49ff}{opacity}
+\begin{CompactList}\small\item\em The opacity of the hud window. \item\end{CompactList}\item 
+UIFont $\ast$ \hyperlink{interface_m_b_progress_h_u_d_85b03f18b8313f4c3efc2002ad79ff27}{labelFont}
+\begin{CompactList}\small\item\em Font to be used for the main label. \item\end{CompactList}\item 
+UIFont $\ast$ \hyperlink{interface_m_b_progress_h_u_d_f3a772e02286bf867c2b4c2213be0180}{detailsLabelFont}
+\begin{CompactList}\small\item\em Font to be used for the details label. \item\end{CompactList}\item 
+float \hyperlink{interface_m_b_progress_h_u_d_4c8328617d11efd1f5452032246ca97f}{progress}
+\begin{CompactList}\small\item\em The progress of the progress indicator, from 0.0 to 1.0. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+Displays a simple HUD window containing a UIActivityIndicatorView and two optional labels for short messages. 
+
+This is a simple drop-in class for displaying a progress HUD view similar to Apples private UIProgressHUD class. The \hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} window spans over the entire space given to it by the initWithFrame constructor and catches all user input on this region, thereby preventing the user operations on components below the view. The HUD itself is drawn centered as a rounded semi-transparent view witch resizes depending on the user specified content. This view supports three modes of operation:\begin{itemize}
+\item The default mode displays just a UIActivityIndicatorView.\item If the labelText property is set and non-empty then a label containing the provided content is placed below the UIActivityIndicatorView.\item If also the detailsLabelText property is set then another label is placed below the firs label. \end{itemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_m_b_progress_h_u_d_8f3c01167d59153c85ae7efdca7717fc}{
+\index{MBProgressHUD@{MBProgressHUD}!initWithWindow:@{initWithWindow:}}
+\index{initWithWindow:@{initWithWindow:}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{initWithWindow:}]{\setlength{\rightskip}{0pt plus 5cm}- (id) initWithWindow: (UIWindow $\ast$) {\em window}}}
+\label{interface_m_b_progress_h_u_d_8f3c01167d59153c85ae7efdca7717fc}
+
+
+A convenience constructor tat initializes the HUD with the window's bounds. 
+
+Calls the designated constructor with window.bounds as the parameter. \hypertarget{interface_m_b_progress_h_u_d_57143873dfa8d273a17d378886b31cdb}{
+\index{MBProgressHUD@{MBProgressHUD}!showWhileExecuting:onTarget:withObject:animated:@{showWhileExecuting:onTarget:withObject:animated:}}
+\index{showWhileExecuting:onTarget:withObject:animated:@{showWhileExecuting:onTarget:withObject:animated:}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{showWhileExecuting:onTarget:withObject:animated:}]{\setlength{\rightskip}{0pt plus 5cm}- (void) showWhileExecuting: (SEL) {\em method}\/ onTarget: (id) {\em target}\/ withObject: (id) {\em object}\/ animated: (bool) {\em animated}}}
+\label{interface_m_b_progress_h_u_d_57143873dfa8d273a17d378886b31cdb}
+
+
+Shows the HUD while a background task is executing in a new thread, then hides the HUD. 
+
+This method also takes care of NSAutoreleasePools so your method does not have to be concerned with setting up a pool.
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em method}]The method to be executed while the HUD is shown. This method will be executed in a new thread. \item[{\em target}]The object that the target method belongs to. \item[{\em object}]An optional object to be passed to the method. \item[{\em animated}]If set to YES the HUD will appear and disappear using a fade animation. If set to NO the HUD will not use animations while appearing and disappearing. \end{description}
+\end{Desc}
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_m_b_progress_h_u_d_f50bbbc26208854ae0af6f76bbab35d6}{
+\index{MBProgressHUD@{MBProgressHUD}!delegate@{delegate}}
+\index{delegate@{delegate}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{delegate}]{\setlength{\rightskip}{0pt plus 5cm}- (id) delegate\hspace{0.3cm}{\tt  \mbox{[}read, write, assign\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_f50bbbc26208854ae0af6f76bbab35d6}
+
+
+The HUD delegate object. 
+
+If set the delegate will receive hudWasHidden callbacks when the hud was hidden. The delegate should conform to the \hyperlink{protocol_m_b_progress_h_u_d_delegate-p}{MBProgressHUDDelegate} protocol and implement the hudWasHidden method. The delegate object will not be retained. \hypertarget{interface_m_b_progress_h_u_d_f3a772e02286bf867c2b4c2213be0180}{
+\index{MBProgressHUD@{MBProgressHUD}!detailsLabelFont@{detailsLabelFont}}
+\index{detailsLabelFont@{detailsLabelFont}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{detailsLabelFont}]{\setlength{\rightskip}{0pt plus 5cm}- (UIFont $\ast$) detailsLabelFont\hspace{0.3cm}{\tt  \mbox{[}read, write, retain\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_f3a772e02286bf867c2b4c2213be0180}
+
+
+Font to be used for the details label. 
+
+Set this property if the default is not adequate. \hypertarget{interface_m_b_progress_h_u_d_b5ad528a731e513b39e3183129af1f37}{
+\index{MBProgressHUD@{MBProgressHUD}!detailsLabelText@{detailsLabelText}}
+\index{detailsLabelText@{detailsLabelText}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{detailsLabelText}]{\setlength{\rightskip}{0pt plus 5cm}- (NSString $\ast$) detailsLabelText\hspace{0.3cm}{\tt  \mbox{[}read, write, copy\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_b5ad528a731e513b39e3183129af1f37}
+
+
+An optional details message displayed below the labelText message. 
+
+This message is displayed only if the labelText property is also set and is different from an empty string (@\char`\"{}\char`\"{}). \hypertarget{interface_m_b_progress_h_u_d_85b03f18b8313f4c3efc2002ad79ff27}{
+\index{MBProgressHUD@{MBProgressHUD}!labelFont@{labelFont}}
+\index{labelFont@{labelFont}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{labelFont}]{\setlength{\rightskip}{0pt plus 5cm}- (UIFont $\ast$) labelFont\hspace{0.3cm}{\tt  \mbox{[}read, write, retain\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_85b03f18b8313f4c3efc2002ad79ff27}
+
+
+Font to be used for the main label. 
+
+Set this property if the default is not adequate. \hypertarget{interface_m_b_progress_h_u_d_e43d72850b8dd657db1b383be0566093}{
+\index{MBProgressHUD@{MBProgressHUD}!labelText@{labelText}}
+\index{labelText@{labelText}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{labelText}]{\setlength{\rightskip}{0pt plus 5cm}- (NSString $\ast$) labelText\hspace{0.3cm}{\tt  \mbox{[}read, write, copy\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_e43d72850b8dd657db1b383be0566093}
+
+
+An optional short message to be displayed below the activity indicator. 
+
+The HUD is automatically resized to fit the entire text. If the text is too long it will get clipped by displaying \char`\"{}...\char`\"{} at the end. If left unchanged or set to @\char`\"{}\char`\"{}, then no message is displayed. \hypertarget{interface_m_b_progress_h_u_d_ce77eaaf507e86fe56436f7ee7b6fdc9}{
+\index{MBProgressHUD@{MBProgressHUD}!mode@{mode}}
+\index{mode@{mode}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{mode}]{\setlength{\rightskip}{0pt plus 5cm}- (MBProgressHUDMode) mode\hspace{0.3cm}{\tt  \mbox{[}read, write, assign\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_ce77eaaf507e86fe56436f7ee7b6fdc9}
+
+
+\hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} operation mode. 
+
+Switches between indeterminate (MBProgressHUDModeIndeterminate) and determinate progress (MBProgressHUDModeDeterminate). The default is MBProgressHUDModeIndeterminate. \hypertarget{interface_m_b_progress_h_u_d_24ab5e37917e3489d6add081324a49ff}{
+\index{MBProgressHUD@{MBProgressHUD}!opacity@{opacity}}
+\index{opacity@{opacity}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{opacity}]{\setlength{\rightskip}{0pt plus 5cm}- (float) opacity\hspace{0.3cm}{\tt  \mbox{[}read, write, assign\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_24ab5e37917e3489d6add081324a49ff}
+
+
+The opacity of the hud window. 
+
+Defaults to 0.9 (90\% opacity). \hypertarget{interface_m_b_progress_h_u_d_4c8328617d11efd1f5452032246ca97f}{
+\index{MBProgressHUD@{MBProgressHUD}!progress@{progress}}
+\index{progress@{progress}!MBProgressHUD@{MBProgressHUD}}
+\subsubsection[{progress}]{\setlength{\rightskip}{0pt plus 5cm}- (float) progress\hspace{0.3cm}{\tt  \mbox{[}read, write, assign\mbox{]}}}}
+\label{interface_m_b_progress_h_u_d_4c8328617d11efd1f5452032246ca97f}
+
+
+The progress of the progress indicator, from 0.0 to 1.0. 
+
+Defaults to 0.0. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+/Users/matej/Documents/Xcode/HudDemo/Classes/MBProgressHUD.h\item 
+/Users/matej/Documents/Xcode/HudDemo/Classes/MBProgressHUD.m\end{CompactItemize}

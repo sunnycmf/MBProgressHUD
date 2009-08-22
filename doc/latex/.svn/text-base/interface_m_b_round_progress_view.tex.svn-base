@@ -1,0 +1,35 @@
+\hypertarget{interface_m_b_round_progress_view}{
+\section{MBRoundProgressView Class Reference}
+\label{interface_m_b_round_progress_view}\index{MBRoundProgressView@{MBRoundProgressView}}
+}
+A progress view for showing definite progress by filling up a circle (similar to the indicator for building in xcode).  
+
+
+{\tt \#import $<$MBProgressHUD.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+(id) - \hyperlink{interface_m_b_round_progress_view_a4794160e36b8a16ce1dd444072433e9}{initWithDefaultSize}
+\begin{CompactList}\small\item\em Create a 37 by 37 pixel indicator. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+A progress view for showing definite progress by filling up a circle (similar to the indicator for building in xcode). 
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_m_b_round_progress_view_a4794160e36b8a16ce1dd444072433e9}{
+\index{MBRoundProgressView@{MBRoundProgressView}!initWithDefaultSize@{initWithDefaultSize}}
+\index{initWithDefaultSize@{initWithDefaultSize}!MBRoundProgressView@{MBRoundProgressView}}
+\subsubsection[{initWithDefaultSize}]{\setlength{\rightskip}{0pt plus 5cm}- (id) initWithDefaultSize }}
+\label{interface_m_b_round_progress_view_a4794160e36b8a16ce1dd444072433e9}
+
+
+Create a 37 by 37 pixel indicator. 
+
+This is the same size as used by the larger UIActivityIndicatorView. 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+/Users/matej/Documents/Xcode/HudDemo/Classes/MBProgressHUD.h\item 
+/Users/matej/Documents/Xcode/HudDemo/Classes/MBProgressHUD.m\end{CompactItemize}

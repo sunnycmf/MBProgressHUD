@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+  <TOC>
+    <Node>
+      <Name>Root</Name>
+      <Path>index.html</Path>
+      <Subnodes>
+       <Node>
+        <Name>Class List</Name>
+        <Path>annotated.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>MBProgressHUD</Name>
+          <Path>interface_m_b_progress_h_u_d.html</Path>
+         </Node>
+         <Node>
+          <Name>&lt; MBProgressHUDDelegate &gt;</Name>
+          <Path>protocol_m_b_progress_h_u_d_delegate-p.html</Path>
+         </Node>
+         <Node>
+          <Name>MBRoundProgressView</Name>
+          <Path>interface_m_b_round_progress_view.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Class Hierarchy</Name>
+        <Path>hierarchy.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>MBProgressHUD</Name>
+          <Path>interface_m_b_progress_h_u_d.html</Path>
+         </Node>
+         <Node>
+          <Name>&lt; MBProgressHUDDelegate &gt;</Name>
+          <Path>protocol_m_b_progress_h_u_d_delegate-p.html</Path>
+         </Node>
+         <Node>
+          <Name>MBRoundProgressView</Name>
+          <Path>interface_m_b_round_progress_view.html</Path>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
+        <Name>Class Members</Name>
+        <Path>functions.html</Path>
+       </Node>
+       <Node>
+        <Name>File List</Name>
+        <Path>files.html</Path>
+        <Subnodes>
+        </Subnodes>
+       </Node>
+      </Subnodes>
+    </Node>
+  </TOC>
+</DocSetNodes>

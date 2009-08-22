@@ -1,0 +1,6 @@
+\section{Class List}
+Here are the classes, structs, unions and interfaces with brief descriptions:\begin{CompactList}
+\item\contentsline{section}{\hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} (Displays a simple HUD window containing a UIActivityIndicatorView and two optional labels for short messages )}{\pageref{interface_m_b_progress_h_u_d}}{}
+\item\contentsline{section}{\hyperlink{protocol_m_b_progress_h_u_d_delegate-p}{$<$ MBProgressHUDDelegate $>$} (Defines callback methods for \hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} delegates )}{\pageref{protocol_m_b_progress_h_u_d_delegate-p}}{}
+\item\contentsline{section}{\hyperlink{interface_m_b_round_progress_view}{MBRoundProgressView} (A progress view for showing definite progress by filling up a circle (similar to the indicator for building in xcode) )}{\pageref{interface_m_b_round_progress_view}}{}
+\end{CompactList}

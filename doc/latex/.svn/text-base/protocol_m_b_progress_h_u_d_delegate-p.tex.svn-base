@@ -1,0 +1,27 @@
+\hypertarget{protocol_m_b_progress_h_u_d_delegate-p}{
+\section{$<$ MBProgressHUDDelegate $>$ Protocol Reference}
+\label{protocol_m_b_progress_h_u_d_delegate-p}\index{MBProgressHUDDelegate-p@{MBProgressHUDDelegate-p}}
+}
+Defines callback methods for \hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} delegates.  
+
+
+{\tt \#import $<$MBProgressHUD.h$>$}
+
+Inherited by HudDemoViewController.
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hypertarget{protocol_m_b_progress_h_u_d_delegate-p_249e40d64d6df30f2bf2f7fce209b9c7}{
+(void) - \hyperlink{protocol_m_b_progress_h_u_d_delegate-p_249e40d64d6df30f2bf2f7fce209b9c7}{hudWasHidden}}
+\label{protocol_m_b_progress_h_u_d_delegate-p_249e40d64d6df30f2bf2f7fce209b9c7}
+
+\begin{CompactList}\small\item\em A callback function that is called after the hud was fully hidden from the screen. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+Defines callback methods for \hyperlink{interface_m_b_progress_h_u_d}{MBProgressHUD} delegates. 
+
+The documentation for this protocol was generated from the following file:\begin{CompactItemize}
+\item 
+/Users/matej/Documents/Xcode/HudDemo/Classes/MBProgressHUD.h\end{CompactItemize}
